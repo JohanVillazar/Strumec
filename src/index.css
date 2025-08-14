@@ -7,8 +7,8 @@
 :root {
   --estrumec-light: #f6fbfb;
   --estrumec-dark: #111213;
-  --estrumec-primary: #77c3cf;
-  --estrumec-secondary: #60a3b0;
+  --estrumec-primary: #3d56e0;
+  --estrumec-secondary: #3d5cb3;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #77c3cf 0%, #60a3b0 100%);
+  background: linear-gradient(135deg, #8da1d8 0%, #4456c0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

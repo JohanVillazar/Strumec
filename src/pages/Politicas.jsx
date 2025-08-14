@@ -7,47 +7,27 @@ const Politicas = () => {
   const humanResourcesPolicies = [
     {
       icon: Users,
-      title: "Igualdad y Diversidad",
-      description: "Promovemos un ambiente laboral inclusivo donde se respeta la diversidad de género, edad, origen étnico y orientación, garantizando igualdad de oportunidades para todos.",
-      principles: [
-        "Contratación basada en mérito y competencias",
-        "Cero tolerancia a la discriminación",
-        "Programas de inclusión laboral",
-        "Equidad salarial por función"
-      ]
+      title: "Medio Ambiente",
+      description: "Evitar el menor daño al Medio Ambiente a través del concomimiento de los riesgos e impactos ambientales, que se pudieren presentar en el desarrollo las actividades y servicios de la empresa.",
+      
     },
     {
       icon: BookOpen,
-      title: "Desarrollo Profesional",
-      description: "Invertimos en el crecimiento profesional de nuestro equipo mediante programas de capacitación continua, certificaciones técnicas y planes de carrera estructurados.",
-      principles: [
-        "40 horas anuales de capacitación por empleado",
-        "Certificaciones técnicas especializadas",
-        "Programas de liderazgo interno",
-        "Apoyo para estudios superiores"
-      ]
+      title: "Control",
+      description: " Establecimiento de controles, acciones correctivas y preventivas que minimicen las consecuencias ambientales negativas emanadas directamente de las actividades de la empresa.",
+    
     },
     {
       icon: Heart,
       title: "Bienestar Integral",
-      description: "Cuidamos la salud física y mental de nuestros colaboradores con programas de bienestar, beneficios competitivos y ambiente laboral saludable.",
-      principles: [
-        "Seguro médico familiar completo",
-        "Programas de salud ocupacional",
-        "Actividades de bienestar y recreación",
-        "Horarios flexibles y teletrabajo"
-      ]
+      description: "Prestar los servicios bajo condiciones de salubridad y seguridad laboral, de quienes participan en las actividades de la empresa. Ello incluye el cumplimiento de los requisitos consagrados en las leyes del Derecho Laboral y la Seguridad Social con respecto a las afiliaciones a los sistemas de Salud, Pensión y Riesgos Profesionales.",
+     
     },
     {
       icon: Zap,
-      title: "Reconocimiento y Compensación",
-      description: "Valoramos el desempeño excepcional con sistemas de reconocimiento justos, compensaciones competitivas y beneficios adicionales por logros.",
-      principles: [
-        "Evaluaciones de desempeño semestrales",
-        "Bonificaciones por productividad",
-        "Reconocimientos públicos mensuales",
-        "Participación en utilidades"
-      ]
+      title: "Salud",
+      description: "Promoción de la salud ocupacional de nuestro grupo de trabajadores con el fin de prevenir las enfermedades derivadas de las actividades del trabajo y los accidentes y lesiones ocasionados en el desarrollo del mismo.",
+   
     }
   ];
 
@@ -55,46 +35,26 @@ const Politicas = () => {
     {
       icon: Award,
       title: "Excelencia en Procesos",
-      description: "Implementamos sistemas de gestión de calidad ISO 9001:2015 en todos nuestros procesos, desde el diseño hasta la entrega final del proyecto.",
-      standards: [
-        "Certificación ISO 9001:2015",
-        "Auditorías internas trimestrales",
-        "Mejora continua de procesos",
-        "Documentación técnica completa"
-      ]
+      description: "Entrega de un servicio calificado, con idoneidad técnica, capacidad multi-disciplinaria, eficaz, integral y con excelencia.",
+   
     },
     {
       icon: Shield,
-      title: "Seguridad y Cumplimiento",
-      description: "Garantizamos el cumplimiento de todas las normativas técnicas y de seguridad, manteniendo los más altos estándares en cada proyecto.",
-      standards: [
-        "Cumplimiento NSR-10 y códigos internacionales",
-        "Certificación OHSAS 18001",
-        "Protocolos de seguridad rigurosos",
-        "Inspecciones de calidad en cada etapa"
-      ]
+      title: "Procesos de Calidad",
+      description: "Diseño de las fases de Planeación, Funcionamiento, Estrategias y Desarrollo de cada servicio que permitan establecer con claridad las necesidades, requisitos, especificaciones y parámetros de nuestros clientes para lograr su satisfacción integral.",
+     
     },
     {
       icon: Leaf,
-      title: "Sostenibilidad Ambiental",
-      description: "Comprometidos con prácticas ambientalmente responsables, utilizando materiales sostenibles y procesos que minimizan el impacto ecológico.",
-      standards: [
-        "30% de materiales reciclados",
-        "Gestión integral de residuos",
-        "Certificación ambiental ISO 14001",
-        "Huella de carbono neutral para 2030"
-      ]
+      title: "Excelencia en Tiempos",
+      description: "Ejecución a tiempo de los servicios y actividades teniendo en cuenta la excelencia del trabajo y los presupuestos económicos, contractuales, ambientales, sociales, entre otros, establecidos por nuestros clientes y la legislación vigente.",
+    
     },
     {
       icon: Globe,
-      title: "Innovación Tecnológica",
-      description: "Adoptamos las últimas tecnologías en diseño BIM, fabricación automatizada y gestión de proyectos para garantizar resultados superiores.",
-      standards: [
-        "Modelado BIM en todos los proyectos",
-        "Fabricación asistida por computadora",
-        "Software de gestión integrado",
-        "I+D continuo en nuevas tecnologías"
-      ]
+      title: "Controles de Calidad",
+      description: "Evaluación de cada servicio o actividad realizada con el fin de establecer nuevas pautas y elementos que optimicen y mejoren los servicios prestados y reajusten los procedimientos o procesos que dificulten la entrega de un trabajo con excelencia.",
+   
     }
   ];
 
@@ -173,8 +133,8 @@ const Politicas = () => {
                 <span className="gradient-text">Políticas de Gestión Humana</span>
               </h2>
               <p className="text-xl text-[#f6fbfb]/80 max-w-3xl mx-auto">
-                Nuestro compromiso con el desarrollo integral de nuestro talento humano, 
-                creando un ambiente laboral excepcional y oportunidades de crecimiento.
+                La Política de Gestión Humana de ESTRUMEC S.A.S., está enmarcada
+                dentro de las siguientes directrices:
               </p>
             </motion.div>
 
@@ -198,15 +158,7 @@ const Politicas = () => {
                     </div>
                   </div>
                   
-                  <div className="space-y-3">
-                    <h4 className="text-sm font-semibold text-[#77c3cf] mb-3">PRINCIPIOS CLAVE:</h4>
-                    {policy.principles.map((principle, principleIndex) => (
-                      <div key={principleIndex} className="flex items-start space-x-3">
-                        <div className="w-2 h-2 rounded-full bg-[#77c3cf] mt-2 flex-shrink-0"></div>
-                        <span className="text-[#f6fbfb]/70 text-sm leading-relaxed">{principle}</span> {/* Changed to dark text */}
-                      </div>
-                    ))}
-                  </div>
+        
                 </motion.div>
               ))}
             </div>
@@ -227,8 +179,8 @@ const Politicas = () => {
                 <span className="gradient-text">Políticas de Calidad</span>
               </h2>
               <p className="text-xl text-[#1c1e22]/80 max-w-3xl mx-auto"> {/* Changed to dark text */}
-                Estándares rigurosos que garantizan la excelencia en cada proyecto, 
-                desde la concepción hasta la entrega final.
+                La Política de Calidad de ESTRUMEC S.A.S., está enmarcada
+                dentro de las siguientes directrices:
               </p>
             </motion.div>
 
@@ -252,15 +204,7 @@ const Politicas = () => {
                     </div>
                   </div>
                   
-                  <div className="space-y-3">
-                    <h4 className="text-sm font-semibold text-[#77c3cf] mb-3">ESTÁNDARES:</h4>
-                    {policy.standards.map((standard, standardIndex) => (
-                      <div key={standardIndex} className="flex items-start space-x-3">
-                        <div className="w-2 h-2 rounded-full bg-[#77c3cf] mt-2 flex-shrink-0"></div>
-                        <span className="text-[#1c1e22]/70 text-sm leading-relaxed">{standard}</span> {/* Changed to dark text */}
-                      </div>
-                    ))}
-                  </div>
+               
                 </motion.div>
               ))}
             </div>

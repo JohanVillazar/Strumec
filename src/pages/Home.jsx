@@ -86,8 +86,12 @@ const Home = () => {
               <span className="gradient-text">¿Por qué elegir ESTRUMEC?</span>
             </h2>
             <p className="text-xl text-[#f6fbfb]/80 max-w-3xl mx-auto">
-              Somos líderes en el sector de estructuras metálicas, ofreciendo soluciones integrales 
-              con la más alta calidad y tecnología de vanguardia.
+              Nos dedicamos a la construcción de estructuras
+              metálicas y de concreto principalmente para edificios y puentes.
+              Somos una empresa conformada por un grupo de profesionales con
+              alto nivel de experiencia, quienes hemos decidido unir esfuerzos con el
+              fin de prestar servicios multi-disciplinarios, integrales, de excelencia y
+              especializados en el sector de la Ingeniería Civil y la Arquitectura.
             </p>
           </motion.div>
 

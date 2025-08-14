@@ -22,7 +22,7 @@ const HeroSlider = () => {
       title: "Ingeniería de Precisión",
       subtitle: "Diseños Arquitectónicos Únicos",
       description: "Transformamos ideas en realidades estructurales con diseños innovadores y funcionales",
-      image: "https://cdn.pixabay.com/photo/2019/12/13/13/05/steel-4692910_960_720.jpg",
+      image: "https://cdn.pixabay.com/photo/2021/11/27/10/10/grinding-6827613_1280.jpg",
       cta: "Nuestros Servicios"
     },
     {

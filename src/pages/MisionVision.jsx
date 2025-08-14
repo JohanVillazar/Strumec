@@ -72,16 +72,13 @@ const MisionVision = () => {
                   <span className="gradient-text">Nuestra Misión</span>
                 </h2>
                 <p className="text-lg text-[#f6fbfb]/80 leading-relaxed mb-6">
-                  Diseñar, fabricar e instalar estructuras metálicas de la más alta calidad, 
-                  utilizando tecnología de vanguardia y un equipo humano altamente capacitado, 
-                  para satisfacer las necesidades de nuestros clientes en los sectores industrial, 
-                  comercial y residencial.
+                  Lograr la excelencia en nuestro trabajo y satisfacer las necesidades de
+                  nuestros clientes mediante la Planeación, Desarrollo, Ejecución y
+                  Evaluación en todos los servicios prestados a entidades del sector
+                  público y privado con el fin de obtener la satisfacción y bienestar de
+                  nuestros clientes y el desarrollo de nuestros colaboradores.
                 </p>
-                <p className="text-lg text-[#f6fbfb]/80 leading-relaxed">
-                  Nos comprometemos a entregar proyectos que cumplan con los más altos estándares 
-                  de seguridad, funcionalidad y estética, contribuyendo al desarrollo sostenible 
-                  de la infraestructura en Colombia.
-                </p>
+              
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
@@ -139,16 +136,11 @@ const MisionVision = () => {
                   <span className="gradient-text">Nuestra Visión</span>
                 </h2>
                 <p className="text-lg text-[#1c1e22]/80 leading-relaxed mb-6">
-                  Ser reconocidos como la empresa líder en estructuras metálicas en Colombia 
-                  para el año 2030, expandiendo nuestra presencia a nivel internacional y 
-                  siendo referente en innovación, sostenibilidad y excelencia técnica.
+                  Para el 2030 seremos una empresa reconocida en el sector de la
+                  construcción de estructuras metálicas en Colombia a través de la
+                  innovación y el aseguramiento de la calidad en los procesos.
                 </p>
-                <p className="text-lg text-[#1c1e22]/80 leading-relaxed">
-                  Aspiramos a transformar el paisaje urbano e industrial del país con 
-                  estructuras que combinen funcionalidad, belleza y respeto por el medio ambiente, 
-                  consolidándonos como el socio estratégico preferido por arquitectos, 
-                  constructores e inversionistas.
-                </p>
+                
               </motion.div>
             </div>
           </div>

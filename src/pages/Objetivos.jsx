@@ -30,27 +30,27 @@ const Objetivos = () => {
   const specificObjectives = [
     {
       icon: Shield,
-      title: "Seguridad Industrial",
-      description: "Lograr cero accidentes laborales mediante la implementación de protocolos de seguridad rigurosos y capacitación continua.",
-      metrics: ["100% cumplimiento normativo", "Certificación OHSAS 18001", "Capacitación mensual"]
+      title: "Eficiencia Productiva",
+      description: " Prestar con eficacia y prontitud los servicios ofrecidos por nuestra empresa, para cumplir de manera oportuna con los terminos teporales y presupuestales aisgnados a los proyectos en ejecucion.    ",
+      metrics: ["Agilidad en procesos", "Reduccion de Tiempos"]
     },
     {
       icon: Zap,
-      title: "Eficiencia Productiva",
-      description: "Optimizar los tiempos de entrega reduciendo en un 20% los plazos actuales sin comprometer la calidad.",
-      metrics: ["Reducción 20% tiempos", "Automatización procesos", "Control de calidad ISO"]
+      title: "Calidad",
+      description: "Entregar nuestro proyectos con los mayores Estandares de Calidad que incluyan la participacion de enfoques multidiciplinarios y especializados en las tareas de diseño, asesoria,consultoria, construccion y comercializacion de productos.",
+      metrics: ["Control de calidad ISO"]
     },
     {
       icon: Award,
-      title: "Satisfacción del Cliente",
-      description: "Mantener un índice de satisfacción superior al 95% mediante seguimiento continuo y mejora de servicios.",
-      metrics: ["95% satisfacción", "Seguimiento post-venta", "Garantía extendida"]
+      title: "Materiales de Primera",
+      description: "Utilizar en el desarrollo de nuestra actividad comercial los materiales e insumos que cumplan con los mas altos Estandares de calidad.",
+      metrics: ["Resultados de Calidad.", "Estructuras Duraderas."]
     },
     {
       icon: Leaf,
-      title: "Sostenibilidad Ambiental",
-      description: "Reducir el impacto ambiental implementando prácticas eco-amigables y materiales reciclables.",
-      metrics: ["30% materiales reciclados", "Certificación ambiental", "Huella de carbono neutral"]
+      title: "Competitividad",
+      description: " Garantizar la competitividad, liderazgo y excelencia dentro de las actividades de la Ingeniería Civil y la Arquitectura. ",
+      metrics: ["Presencia en el Mercado", "Prodcutos Competitivos"]
     }
   ];
 
@@ -129,8 +129,10 @@ const Objetivos = () => {
                 <span className="gradient-text">Objetivos Generales</span>
               </h2>
               <p className="text-xl text-[#f6fbfb]/80 max-w-3xl mx-auto">
-                Los pilares fundamentales que sostienen nuestra estrategia empresarial 
-                y definen nuestro rumbo hacia el futuro.
+                Satisfacer integralmente las expectativas y necesidades de los
+                clientes, ofreciendo un trabajo de excelencia en la rama de la
+                Ingeniería civil y la Arquitectura dentro de las políticas de calidad y
+                gestión humana de nuestra empresa.
               </p>
             </motion.div>
 
