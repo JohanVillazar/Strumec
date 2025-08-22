@@ -54,7 +54,7 @@ const Proyectos = () => {
       id: 3,
       title: "Puertas tiendas Ara",
       category: "comercial",
-      status: "terminado",
+      status: "en curso",
       location: "Bogotá, Colombia",
       year: "2024",
       area: "Cliente: Tiendas ARA",
@@ -93,7 +93,7 @@ const Proyectos = () => {
       id: 6,
       title: "Cubierta para Iglesia.",
       category: "industrial",
-      status: "terminado",
+      status: "en curso",
       location: "Funza,Cundinamarca",
       year: "2023",
       area: "Cliente: Rodelta",
@@ -218,7 +218,7 @@ const Proyectos = () => {
                           {
       id: 14,
       title: "Puente Peatonal.",
-      category: "industriall",
+      category: "industrial",
       status: "terminado",
       location: "Sabaneta,Colombia",
       year: "2013",
@@ -226,6 +226,48 @@ const Proyectos = () => {
       client: "ESTRUMEC",
       description: "Contrato: Fabricación y Montaje del puente peatonal Sabaneta, Estructura principal de 28m conformada por vigas metálicas en I fabricadas con acero estructural A588. ",
       image: "https://cdn.pixabay.com/photo/2017/08/20/17/08/building-2662423_960_720.jpg", // puente peatonal
+      features: []
+    },
+
+                             {
+      id: 15,
+      title: "Puente sobre Río.",
+      category: "industrial",
+      status: "terminado",
+      location: "Rio Coello en la Vía Ibagué - Cajamarca",
+      year: "2012",
+      area: "Cliente: Constructora de Viaductos CTEC S.A.S. ",
+      client: "ESTRUMEC",
+      description: "Contrato: Fabricación de un puente peatonal metálico de 32ml en celosía compuesto de elementos en tubería estructural cuadrada. ",
+      image: "https://cdn.pixabay.com/photo/2013/08/06/20/21/mississippi-river-bridge-170332_960_720.jpg", // puente peatonal
+      features: []
+    },
+
+                              {
+      id: 16,
+      title: "Estructura de Teleférico.",
+      category: "industrial",
+      status: "terminado",
+      location: "Rio Coello en la Vía Ibagué - Cajamarca",
+      year: "2011",
+      area: "Cliente: Constructora de viaducto CTEC S.A.S. ",
+      client: "ESTRUMEC",
+      description: "Contrato: Fabricación y Mantenimiento de estructura metálica para teleférico usado en el proyecto Viaducto el Porvenir.",
+      image: "https://cdn.pixabay.com/photo/2014/10/05/22/07/mast-475835_960_720.jpg", // puente peatonal
+      features: []
+    },
+
+                          {
+      id: 16,
+      title: "Puente Peatonal.",
+      category: "industrial",
+      status: "terminado",
+      location: "Bogotá,Colombia",
+      year: "2011",
+      area: "Cliente: Constructora de viaducto CTEC S.A.S. ",
+      client: "ESTRUMEC",
+      description: "Contrato: Fabricación, Modificación y Montaje de la Superestructura y Barandas Metálicas Para el Puente Peatonal LEON XIII.",
+      image: "https://cdn.pixabay.com/photo/2016/04/20/18/31/netherlands-1341693_960_720.jpg", // puente peatonal
       features: []
     },
     
@@ -338,8 +380,8 @@ const Proyectos = () => {
                       <div className="absolute top-4 right-4">
                         <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
                           project.status === 'terminado' 
-                            ? 'bg-green-500/20 text-green-400 border border-green-500/30' 
-                            : 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30'
+                            ? 'bg-green-700/70 text-white-400 border border-green-700/30' 
+                            : 'bg-yellow-500/70 text-black-400 border border-yellow-500/30'
                         }`}>
                           {project.status === 'terminado' ? 'Terminado' : 'En Curso'}
                         </span>
