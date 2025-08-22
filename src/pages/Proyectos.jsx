@@ -197,7 +197,7 @@ const Proyectos = () => {
       area: "Cliente: Constructora Contrastes. ",
       client: "ESTRUMEC",
       description: "Contrato: Fabricación y Montaje de la estructura metálica para una bodega en la calle 6 de Bogotá D.C. ",
-      image: "https://cdn.pixabay.com/photo/2017/07/02/03/05/stadium-2463389_960_720.jpg", // puente peatonal
+      image: "https://cdn.pixabay.com/photo/2021/07/28/10/04/industry-6498773_960_720.jpg", // puente peatonal
       features: []
     },
 
@@ -214,6 +214,21 @@ const Proyectos = () => {
       image: "https://cdn.pixabay.com/photo/2017/08/22/08/03/construction-2668051_1280.jpg", // puente peatonal
       features: []
     },
+
+                          {
+      id: 14,
+      title: "Puente Peatonal.",
+      category: "industriall",
+      status: "terminado",
+      location: "Sabaneta,Colombia",
+      year: "2013",
+      area: "Cliente: ConstructecS.A. ",
+      client: "ESTRUMEC",
+      description: "Contrato: Fabricación y Montaje del puente peatonal Sabaneta, Estructura principal de 28m conformada por vigas metálicas en I fabricadas con acero estructural A588. ",
+      image: "https://cdn.pixabay.com/photo/2017/08/20/17/08/building-2662423_960_720.jpg", // puente peatonal
+      features: []
+    },
+    
     
     
     
