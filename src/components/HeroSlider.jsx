@@ -133,18 +133,6 @@ const HeroSlider = () => {
       </AnimatePresence>
 
       {/* Flechas de navegación */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full glass-effect text-[#77c3cf] hover:bg-[#77c3cf] hover:text-white transition-all duration-300"
-      >
-        <ChevronLeft className="h-6 w-6" />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full glass-effect text-[#77c3cf] hover:bg-[#77c3cf] hover:text-white transition-all duration-300"
-      >
-        <ChevronRight className="h-6 w-6" />
-      </button>
 
       {/* Indicadores */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
