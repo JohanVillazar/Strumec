@@ -13,30 +13,33 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 
 
 function App() {
-return (
-    <Router>
-      <div className="min-h-screen bg-[#f6fbfb]">
-        <Navbar />
-        
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/mision-vision" element={<MisionVision />} />
-            <Route path="/objetivos" element={<Objetivos />} />
-            <Route path="/politicas" element={<Politicas />} />
-            <Route path="/proyectos" element={<Proyectos />} />
-            <Route path="/contacto" element={<Contacto />} />
-          </Routes>
-        </main>
-        
-        {/* Botón WhatsApp visible en toda la web */}
-        <WhatsAppButton />
+ return (
+    <>
+      {/* Botón fuera del Router para evitar parpadeo */}
+      <WhatsAppButton />
 
-        <Footer />
-        <Toaster />
-      </div>
-    </Router>
+      <Router>
+        <div className="min-h-screen bg-[#f6fbfb]">
+          <Navbar />
+
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/mision-vision" element={<MisionVision />} />
+              <Route path="/objetivos" element={<Objetivos />} />
+              <Route path="/politicas" element={<Politicas />} />
+              <Route path="/proyectos" element={<Proyectos />} />
+              <Route path="/contacto" element={<Contacto />} />
+            </Routes>
+          </main>
+
+          <Footer />
+          <Toaster />
+        </div>
+      </Router>
+    </>
   );
 }
+
 
 export default App;
