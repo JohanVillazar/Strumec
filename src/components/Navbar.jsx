@@ -40,25 +40,16 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <motion.div
-              whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.5 }}
-              className="p-2 rounded-lg bg-gradient-to-r from-[#77c3cf] to-[#60a3b0]"
-            >
-              <Building2
-                className={`h-6 w-6 transition-colors duration-500 ${
-                  scrolled ? "text-white" : "text-gray-900"
-                }`}
-              />
-            </motion.div>
-            <span
-              className={`text-xl font-bold gradient-text transition-colors duration-500 ${
-                scrolled ? "text-[#f6fbfb]" : "text-gray-900"
-              }`}
-            >
-              ESTRUMEC
-            </span>
-          </Link>
+  <motion.img
+    src="/strumec.jpeg"
+    alt="Strumec Logo"
+    whileHover={{ scale: 1.1, rotate: 5 }}
+    transition={{ duration: 0.3 }}
+    className="h-20 w-20 object-contain rounded-md shadow-md"
+  />
+</Link>
+
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
