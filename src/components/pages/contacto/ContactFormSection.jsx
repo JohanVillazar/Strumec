@@ -4,12 +4,12 @@ import { MapPin } from 'lucide-react';
 import ContactForm from './ContactForm';
 
 const services = [
-  "Diseño y cálculo estructural",
-  "Fabricación de estructuras metálicas",
+  "Estructuras Metalicas",
+  "Puertas,Barandas",
   "Montaje e instalación",
-  "Mantenimiento y reparación",
-  "Consultoría técnica especializada",
-  "Certificaciones y permisos"
+  "Corte Laser de todo Tipo",
+  "Levantamientos Topograficos",
+  "Pintura Electrostatica"
 ];
 
 const ContactFormSection = () => (

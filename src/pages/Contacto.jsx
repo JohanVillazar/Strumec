@@ -18,9 +18,8 @@ const Contacto = () => {
       <div className="pt-16">
         <ContactHero />
         <ContactInfo />
-     
+        <ContactFormSection />
         <OfficesSection />
-       
         <ContactCTA />
       </div>
     </>

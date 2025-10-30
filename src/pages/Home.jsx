@@ -5,14 +5,14 @@ import { Building2, Users, Award, Zap, ArrowRight, CheckCircle } from 'lucide-re
 import HeroSlider from '@/components/HeroSlider';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/use-toast';
+import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
-  const handleFeatureClick = () => {
-    toast({
-      title: "🚧 Esta funcionalidad aún no está implementada",
-      description: "¡Pero no te preocupes! Puedes solicitarla en tu próximo mensaje! 🚀",
-    });
-  };
+   const navigate = useNavigate();
+const handleFeatureClick = () => {
+  navigate("/contacto");
+};
 
   const features = [
     {

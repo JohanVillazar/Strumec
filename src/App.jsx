@@ -9,12 +9,15 @@ import Objetivos from '@/pages/Objetivos';
 import Politicas from '@/pages/Politicas';
 import Proyectos from '@/pages/Proyectos';
 import Contacto from '@/pages/Contacto';
+import WhatsAppButton from '@/components/WhatsAppButton';
+
 
 function App() {
-  return (
+return (
     <Router>
       <div className="min-h-screen bg-[#f6fbfb]">
         <Navbar />
+        
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,6 +28,10 @@ function App() {
             <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </main>
+        
+        {/* Botón WhatsApp visible en toda la web */}
+        <WhatsAppButton />
+
         <Footer />
         <Toaster />
       </div>

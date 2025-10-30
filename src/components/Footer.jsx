@@ -69,15 +69,7 @@ const Footer = () => {
           </div>
 
           {/* Enlaces rápidos */}
-          <div>
-            <span className="text-lg font-semibold text-[#77c3cf] mb-4 block">Enlaces</span>
-            <div className="space-y-2">
-              <p className="text-[#f6fbfb]/80 hover:text-[#77c3cf] transition-colors cursor-pointer">Servicios</p>
-              <p className="text-[#f6fbfb]/80 hover:text-[#77c3cf] transition-colors cursor-pointer">Portafolio</p>
-              <p className="text-[#f6fbfb]/80 hover:text-[#77c3cf] transition-colors cursor-pointer">Certificaciones</p>
-              <p className="text-[#f6fbfb]/80 hover:text-[#77c3cf] transition-colors cursor-pointer">Blog</p>
-            </div>
-          </div>
+       
         </div>
 
         <div className="section-divider my-8"></div>

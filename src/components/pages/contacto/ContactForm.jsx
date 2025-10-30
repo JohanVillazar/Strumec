@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import emailjs from "emailjs-com";
+
 import { motion } from 'framer-motion';
 import { Mail, Phone, User, MessageSquare, Building2, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -19,13 +21,39 @@ const ContactForm = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  //enviar correo
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    await emailjs.send(
+      import.meta.env.VITE_EMAIL_SERVICE_ID,
+      import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+      formData,
+      import.meta.env.VITE_EMAIL_PUBLIC_KEY
+    );
+
     toast({
-      title: "🚧 Esta funcionalidad aún no está implementada",
-      description: "¡Pero no te preocupes! Puedes solicitarla en tu próximo mensaje! 🚀",
+      title: "✅ Mensaje enviado",
+      description: "Gracias por contactarnos. Te responderemos pronto."
     });
-  };
+
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      subject: "",
+      message: ""
+    });
+  } catch (error) {
+    toast({
+      title: "❌ Error",
+      description: "Hubo un problema enviando el mensaje. Inténtalo de nuevo."
+    });
+  }
+};
+
 
   return (
     <motion.div
