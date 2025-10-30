@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
             <motion.img
-              src="/strumec.jpeg"
+              src="/strumec.png"
               alt="Estrumec Logo"
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ duration: 0.3 }}

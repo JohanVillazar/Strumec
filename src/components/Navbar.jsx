@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
   <motion.img
-    src="/strumec.jpeg"
+    src="/strumec.png"
     alt="Strumec Logo"
     whileHover={{ scale: 1.1, rotate: 5 }}
     transition={{ duration: 0.3 }}
