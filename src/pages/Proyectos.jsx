@@ -506,11 +506,10 @@ const Proyectos = () => {
       description:
         "Contrato:Escalera Emergencia Bunker Claro",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761761911/leon1_mac2la.png", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/v1761925097/bunker2_hizhxp.jpg", 
         galery:[
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761915/leon2_g417bq.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761920/leon3_uwbyo0.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761953/leon4_iwjjnf.png"
+          "https://res.cloudinary.com/dywebznfa/image/upload/v1761925095/bunker1_ej7sr3.jpg",
+       
         ],// puente peatonal
       features: [],
     },
