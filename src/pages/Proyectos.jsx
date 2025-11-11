@@ -118,7 +118,7 @@ const Proyectos = () => {
       image:
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761748637/puente2_v5os8v.png",
       gallery: [
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761747605/puente1_ltc4ve.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/puente1_ltc4ve.png",
       ],
       features: [],
     },
@@ -225,10 +225,10 @@ const Proyectos = () => {
       client: "ESTRUMEC",
       description: "Contrato: Fabricación y montaje de Mezanine",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761756351/meza3_e1vyan.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761756351/meza3_e1vyan.png",
       galery: [
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761756354/meza2_vlpkvw.png",
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761756357/meza1_rktls2.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_vflip/v1761756354/meza2_vlpkvw.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761756357/meza1_rktls2.png",
       ],
       features: [],
     },
@@ -259,7 +259,8 @@ const Proyectos = () => {
       client: "ESTRUMEC",
       description: "Contrato: Fabricación y montaje de Estructuras",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761757995/plazoleta1_f7d8e2.png", // puente peatonal
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761757992/plazoleta2_nwtvza.png", 
+        galery:["https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761757995/plazoleta1_f7d8e2.png"],// puente peatonal
       features: [],
     },
 
@@ -275,11 +276,11 @@ const Proyectos = () => {
       description:
         "Contrato: Fabricación y montaje de estructura metálica tipo barandas peatonales.",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761749126/barandas1_gpq7qc.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749126/barandas1_gpq7qc.png",
       galery: [
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761749172/barandas3_z15nav.png",
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761749173/barandas4_bojiqk.png",
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761749127/barandas2_yzsbqr.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749172/barandas3_z15nav.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749173/barandas4_bojiqk.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749127/barandas2_yzsbqr.png",
       ], // puente peatonal
       features: [],
     },
@@ -298,7 +299,7 @@ const Proyectos = () => {
       image:
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761751863/poli2_nwoqvp.png",
       galery: [
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761751907/poli3_qx6arg.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761751907/poli3_qx6arg.png",
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761751862/poli1_xu1wud.png",
       ], // puente peatonal
       features: [],
@@ -318,7 +319,7 @@ const Proyectos = () => {
       image:
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761759754/bodega1_id74t4.png",
       galery: [
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761759758/bodega2_w578mq.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761759758/bodega2_w578mq.png",
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761759762/bodega3_vmjnpu.png",
       ], // puente peatonal
       features: [],
@@ -336,7 +337,7 @@ const Proyectos = () => {
       description:
         "Contrato: Suministro y Fabricación de Estructuras Metálicas para Bar Calle 82 ",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761748783/vikingos2_hctdx1.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761748783/vikingos1_xvjv9v.png",
       galery: [
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761748783/vikingos1_xvjv9v.png",
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761748782/vikingos3_eepnvl.png",
@@ -356,7 +357,7 @@ const Proyectos = () => {
       description:
         "Contrato: Fabricación y Montaje del puente peatonal Sabaneta, Estructura principal de 28m conformada por vigas metálicas en I fabricadas con acero estructural A588. ",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761760745/peatonal1_yxeic3.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761760745/peatonal1_yxeic3.png",
       galery: [
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761760749/peatonal2_wn9n17.png",
         "https://res.cloudinary.com/dywebznfa/image/upload/v1761760753/peatonal3_hjf2mn.png",
@@ -378,10 +379,10 @@ const Proyectos = () => {
       description:
         "Contrato: Fabricación de un puente peatonal metálico de 32ml en celosía compuesto de elementos en tubería estructural cuadrada. ",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761751409/rio3_b6vqsx.png", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_90/a_vflip/v1761751409/rio3_b6vqsx.png", 
         galery:[
           "https://res.cloudinary.com/dywebznfa/image/upload/v1761751410/rio2_virudz.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761751411/rio1_jnz8tw.png"
+          "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761751411/rio1_jnz8tw.png"
         ],// puente peatonal
       features: [],
     },
@@ -398,7 +399,7 @@ const Proyectos = () => {
       description:
         "Contrato: Fabricación y Mantenimiento de estructura metálica para teleférico usado en el proyecto Viaducto el Porvenir.",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761761246/tele1_txs30v.png", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761761246/tele1_txs30v.png", 
         galery:[
           "https://res.cloudinary.com/dywebznfa/image/upload/v1761761250/tele2_ck5avg.png",
           "https://res.cloudinary.com/dywebznfa/image/upload/v1761761254/tele3_tvn534.png",
@@ -420,7 +421,7 @@ const Proyectos = () => {
       description:
         "Contrato: Fabricación, Modificación y Montaje de la Superestructura y Barandas Metálicas Para el Puente Peatonal LEON XIII.",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761761911/leon1_mac2la.png", 
+        " https://res.cloudinary.com/dywebznfa/image/upload/a_90/a_vflip/v1761761911/leon1_mac2la.png",
         galery:[
           "https://res.cloudinary.com/dywebznfa/image/upload/v1761761915/leon2_g417bq.png",
           "https://res.cloudinary.com/dywebznfa/image/upload/v1761761920/leon3_uwbyo0.png",
@@ -516,7 +517,7 @@ const Proyectos = () => {
 
                 {
       id: 23,
-      title: "Pintura EStacion Cll 26",
+      title: "Pintura Estacion Cll 26",
       category: "industrial",
       status: "en curso",
       location: "Bogotá,Colombia",
@@ -526,18 +527,16 @@ const Proyectos = () => {
       description:
         "Contrato:Pintura estaciones Transmilenio Cll 26",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761761911/leon1_mac2la.png", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/caLLE26_j1zs6b.jpg", 
         galery:[
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761915/leon2_g417bq.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761920/leon3_uwbyo0.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761953/leon4_iwjjnf.png"
+    
         ],// puente peatonal
       features: [],
     },
 
                  {
       id: 24,
-      title: "Pintura EStacion Simon Bolivar",
+      title: "Pintura Estacion Simon Bolivar",
       category: "industrial",
       status: "en curso",
       location: "Bogotá,Colombia",
@@ -547,11 +546,9 @@ const Proyectos = () => {
       description:
         "Contrato:Pintura estaciones Transmilenio Simon Bolivar",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761761911/leon1_mac2la.png", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/SIMON_p7orzc.jpg", 
         galery:[
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761915/leon2_g417bq.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761920/leon3_uwbyo0.png",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761761953/leon4_iwjjnf.png"
+      
         ],// puente peatonal
       features: [],
     },

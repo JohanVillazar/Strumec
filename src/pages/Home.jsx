@@ -167,17 +167,17 @@ const handleFeatureClick = () => {
         {
           title: "Estructuras Industriales",
           description: "Diseño y fabricación de estructuras para plantas y almacenes.",
-          image: "https://cdn.pixabay.com/photo/2018/10/16/00/55/man-3750381_1280.jpg"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761751907/poli3_qx6arg.png"
         },
         {
           title: "Puentes Metálicos",
           description: "Construcción y montaje de puentes peatonales y vehiculares.",
-          image: "https://cdn.pixabay.com/photo/2014/02/12/12/33/suspension-bridge-264609_960_720.jpg"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/dorado3_gsabv8.jpg"
         },
         {
           title: "Cubiertas y Techos",
           description: "Soluciones para cubiertas resistentes y duraderas.",
-          image: "https://cdn.pixabay.com/photo/2017/08/03/13/13/stainless-2576185_1280.jpg"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/poli2_nwoqvp.png"
         },
            {
           title: "Pintura Electrostatica",
@@ -193,7 +193,21 @@ const handleFeatureClick = () => {
           title: "Corte Laser de todo Tipo",
           description: "Corte laser de todo tipo de diseño, de fachadas, nombres, dibujos personalizados, avisos publicitarios y vayas para edificios..",
           image: "https://res.cloudinary.com/dywebznfa/image/upload/v1761771092/laser_xqyoau.png"
-        }
+        },
+                {
+          title: "Dobladora",
+          description: " En nuestra planta contamos con equipos de doblado de alta precisión capaces de trabajar distintos tipos de metales, garantizando acabados limpios, uniformes y exactos.",
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/cerrar3_zjfvwi.jpg"
+        },
+
+                {
+          title: "Cortadora",
+          description: " Trabajamos con acero inoxidable, hierro, aluminio y otros materiales, adaptándonos a las dimensiones y espesores requeridos por cada proyecto. La precisión de nuestros cortes garantiza un ajuste perfecto en procesos posteriores de soldadura, ensamblaje o montaje.",
+          image: " https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761748782/vikingos3_eepnvl.png"
+        },
+        
+        
+
       ].map((service, index) => (
         <motion.div
           key={index}

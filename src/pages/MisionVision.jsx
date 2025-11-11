@@ -116,7 +116,7 @@ const MisionVision = () => {
                   <img  
                     className="w-full h-96 object-cover rounded-2xl"
                     alt="Visión futurista ESTRUMEC"
-                   src="https://images.unsplash.com/photo-1655314518944-f1cf58c55be9" />
+                   src="https://res.cloudinary.com/dywebznfa/image/upload/ubicacion-torre-colpatria_cqgfb0.png" />
                 </div>
                 <div className="absolute -bottom-10 -left-10 floating-animation" style={{ animationDelay: '2s' }}>
                   <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#60a3b0]/30 to-[#77c3cf]/30 backdrop-blur-sm"></div>
@@ -187,54 +187,79 @@ const MisionVision = () => {
         </section>
 
         {/* Timeline Section */}
-        <section className="py-20 metal-gradient">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center mb-16"
-            >
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="gradient-text">Nuestra Historia</span>
-              </h2>
-              <p className="text-xl text-[#1c1e22]/80 max-w-3xl mx-auto"> {/* Changed to dark text */}
-                Un recorrido por los hitos más importantes que han marcado 
-                nuestro crecimiento y evolución.
-              </p>
-            </motion.div>
+     <section className="py-20 metal-gradient">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="text-center mb-16"
+    >
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <span className="gradient-text">Nuestra Historia</span>
+      </h2>
+      <p className="text-xl text-[#1c1e22]/80 max-w-3xl mx-auto">
+        Un recorrido por los hitos más importantes que han marcado 
+        nuestro crecimiento y evolución.
+      </p>
+    </motion.div>
 
-            <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#77c3cf] to-[#60a3b0]"></div>
-              
-              <div className="space-y-16">
-                {[
-                  { year: "2010", title: "Fundación", description: "Inicio de operaciones con un equipo de 5 profesionales especializados." },
-                  { year: "2015", title: "Expansión", description: "Apertura de nueva planta de producción y crecimiento del equipo a 25 personas." },
-                  { year: "2020", title: "Innovación", description: "Implementación de tecnología BIM y procesos de fabricación automatizados." },
-                  { year: "2024", title: "Liderazgo", description: "Consolidación como empresa líder con más de 500 proyectos exitosos." }
-                ].map((milestone, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.2 }}
-                    viewport={{ once: true }}
-                    className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
-                  >
-                    <div className={`glass-effect rounded-2xl p-8 max-w-md ${index % 2 === 0 ? 'mr-8' : 'ml-8'}`}>
-                      <div className="text-2xl font-bold gradient-text mb-2">{milestone.year}</div>
-                      <h3 className="text-xl font-semibold text-[#1c1e22] mb-4">{milestone.title}</h3> {/* Changed to dark text */}
-                      <p className="text-[#1c1e22]/70">{milestone.description}</p> {/* Changed to dark text */}
-                    </div>
-                    <div className="w-4 h-4 rounded-full bg-[#77c3cf] border-4 border-[#1c1e22] relative z-10"></div>
-                  </motion.div>
-                ))}
-              </div>
+    {/* 🧑‍💼 Sección del fundador */}
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="flex flex-col md:flex-row items-center justify-center gap-8 mb-20 text-center md:text-left"
+    >
+      <img
+        src="https://res.cloudinary.com/dywebznfa/image/upload/e_improve,e_sharpen/v1762894121/fundador_h83kjo.jpg"
+        alt="Fundador de la empresa"
+        className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg border-4 border-[#77c3cf]"
+      />
+      <div>
+        <h3 className="text-2xl font-bold text-[#1c1e22] mb-2">Luis Alfonso Rozo Cortés</h3>
+        <p className="text-[#1c1e22]/80 italic mb-4">Fundador</p>
+        <p className="max-w-lg text-[#1c1e22]/70">
+          Con visión, pasión y liderazgo, Luis inició esta compañía en 2012, 
+          guiando su crecimiento hacia la innovación y la excelencia que hoy nos define.
+        </p>
+      </div>
+    </motion.div>
+
+    {/* Timeline */}
+    <div className="relative">
+      <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#77c3cf] to-[#60a3b0]"></div>
+      
+      <div className="space-y-16">
+        {[
+          { year: "2012", title: "Fundación", description: " Su visión y liderazgo dieron origen a una empresa que nació de una idea y el valor de convertir los sueños en realidad. Gracias a su compromiso y determinación, hoy seguimos construyendo sobre un legado de pasión, innovación y propósito.." },
+          { year: "2015", title: "Expansión", description: "Apertura de nueva planta de producción y crecimiento del equipo a 25 personas." },
+          { year: "2020", title: "Innovación", description: "Implementación de tecnología BIM y procesos de fabricación automatizados." },
+          { year: "2024", title: "Liderazgo", description: "Consolidación como empresa líder con más de 500 proyectos exitosos." }
+        ].map((milestone, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+            viewport={{ once: true }}
+            className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
+          >
+            <div className={`glass-effect rounded-2xl p-8 max-w-md ${index % 2 === 0 ? 'mr-8' : 'ml-8'}`}>
+              <div className="text-2xl font-bold gradient-text mb-2">{milestone.year}</div>
+              <h3 className="text-xl font-semibold text-[#1c1e22] mb-4">{milestone.title}</h3>
+              <p className="text-[#1c1e22]/70">{milestone.description}</p>
             </div>
-          </div>
-        </section>
+            <div className="w-4 h-4 rounded-full bg-[#77c3cf] border-4 border-[#1c1e22] relative z-10"></div>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
       </div>
     </>
   );

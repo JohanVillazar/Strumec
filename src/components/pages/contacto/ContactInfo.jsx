@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Horarios",
-    details: ["Lun - Vie: 8:00 AM - 6:00 PM", "Sáb: 8:00 AM - 12:00 PM"],
+    details: ["Lun - Vie: 7:00 AM - 6:00 PM", "Sáb: 7:00 AM - 02:00 PM"],
     description: "Atención personalizada"
   }
 ];
