@@ -116,7 +116,7 @@ const MisionVision = () => {
                   <img  
                     className="w-full h-96 object-cover rounded-2xl"
                     alt="Visión futurista ESTRUMEC"
-                   src="https://res.cloudinary.com/dywebznfa/image/upload/ubicacion-torre-colpatria_cqgfb0.png" />
+                   src="https://res.cloudinary.com/dywebznfa/image/upload/colpa1_fwbirj.png" />
                 </div>
                 <div className="absolute -bottom-10 -left-10 floating-animation" style={{ animationDelay: '2s' }}>
                   <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#60a3b0]/30 to-[#77c3cf]/30 backdrop-blur-sm"></div>
