@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const [showBubble, setShowBubble] = useState(true);
 
   return createPortal(
-    <div className="fixed bottom-6 right-6 z-[9999] flex items-center gap-2">
+    <div className="fixed bottom-24 right-6 z-[9999] flex items-center gap-2">
       {/* 🟢 Burbuja de texto */}
       {showBubble && (
         <div className="bg-white text-gray-900 px-4 py-2 rounded-xl shadow-lg border border-gray-200 text-sm font-medium animate-fadeIn">
