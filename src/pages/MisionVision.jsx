@@ -73,9 +73,9 @@ const MisionVision = () => {
                 </h2>
                 <p className="text-lg text-[#f6fbfb]/80 leading-relaxed mb-6">
                   Lograr la excelencia en nuestro trabajo y satisfacer las necesidades de
-                  nuestros clientes mediante la Planeación, Desarrollo, Ejecución y
+                  nuestros clientes mediante la Planificación, Desarrollo, Ejecución y
                   Evaluación en todos los servicios prestados a entidades del sector
-                  público y privado con el fin de obtener la satisfacción y bienestar de
+                  público y privado con el fin de obtener la satisfacción y el bienestar de
                   nuestros clientes y el desarrollo de nuestros colaboradores.
                 </p>
               

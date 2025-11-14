@@ -31,26 +31,26 @@ const Objetivos = () => {
     {
       icon: Shield,
       title: "Eficiencia Productiva",
-      description: " Prestar con eficacia y prontitud los servicios ofrecidos por nuestra empresa, para cumplir de manera oportuna con los terminos teporales y presupuestales aisgnados a los proyectos en ejecucion.    ",
-      metrics: ["Agilidad en procesos", "Reduccion de Tiempos"]
+      description: "Prestar con eficacia y prontitud los servicios ofrecidos por nuestra empresa, para cumplir de manera oportuna con los términos temporales y presupuestales asignados a los proyectos en ejecución.",
+      metrics: ["Agilidad en procesos", "Reducción de Tiempos"]
     },
     {
       icon: Zap,
       title: "Calidad",
-      description: "Entregar nuestro proyectos con los mayores Estandares de Calidad que incluyan la participacion de enfoques multidiciplinarios y especializados en las tareas de diseño, asesoria,consultoria, construccion y comercializacion de productos.",
+      description: "Entregar nuestros proyectos con los mayores estándares de calidad que incluyan la participación de enfoques multidisciplinarios y especializados en las tareas de diseño, asesoría, consultoría, construcción y comercialización de productos.",
       metrics: ["Control de calidad ISO"]
     },
     {
       icon: Award,
       title: "Materiales de Primera",
-      description: "Utilizar en el desarrollo de nuestra actividad comercial los materiales e insumos que cumplan con los mas altos Estandares de calidad.",
+      description: "Utilizar en el desarrollo de nuestra actividad comercial los materiales e insumos que cumplan con los más altos estándares de calidad.",
       metrics: ["Resultados de Calidad.", "Estructuras Duraderas."]
     },
     {
       icon: Leaf,
       title: "Competitividad",
-      description: " Garantizar la competitividad, liderazgo y excelencia dentro de las actividades de la Ingeniería Civil y la Arquitectura. ",
-      metrics: ["Presencia en el Mercado", "Prodcutos Competitivos"]
+      description: "Garantizar la competitividad, liderazgo y excelencia dentro de las actividades de la Ingeniería Civil y la Arquitectura.",
+      metrics: ["Presencia en el Mercado", "Productos Competitivos"]
     }
   ];
 
@@ -131,7 +131,7 @@ const Objetivos = () => {
               <p className="text-xl text-[#f6fbfb]/80 max-w-3xl mx-auto">
                 Satisfacer integralmente las expectativas y necesidades de los
                 clientes, ofreciendo un trabajo de excelencia en la rama de la
-                Ingeniería civil y la Arquitectura dentro de las políticas de calidad y
+                Ingeniería Civil y la Arquitectura dentro de las políticas de calidad y
                 gestión humana de nuestra empresa.
               </p>
             </motion.div>

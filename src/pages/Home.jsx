@@ -197,13 +197,13 @@ const handleFeatureClick = () => {
                 {
           title: "Dobladora",
           description: " En nuestra planta contamos con equipos de doblado de alta precisión capaces de trabajar distintos tipos de metales, garantizando acabados limpios, uniformes y exactos.",
-          image: "https://res.cloudinary.com/dywebznfa/image/upload/cerrar3_zjfvwi.jpg"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/dobladora_sqg1nr.jpg"
         },
 
                 {
           title: "Cortadora",
           description: " Trabajamos con acero inoxidable, hierro, aluminio y otros materiales, adaptándonos a las dimensiones y espesores requeridos por cada proyecto. La precisión de nuestros cortes garantiza un ajuste perfecto en procesos posteriores de soldadura, ensamblaje o montaje.",
-          image: " https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761748782/vikingos3_eepnvl.png"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/carotadora_rlqo2m.jpg"
         },
         
         

@@ -9,7 +9,7 @@ const WhatsAppButton = () => {
       {/* 🟢 Burbuja de texto */}
       {showBubble && (
         <div className="bg-white text-gray-900 px-4 py-2 rounded-xl shadow-lg border border-gray-200 text-sm font-medium animate-fadeIn">
-          ¿Necesitas cotizar?
+          Cotiza Aquí
         </div>
       )}
 

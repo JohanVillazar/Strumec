@@ -485,11 +485,10 @@ const Proyectos = () => {
       description:
         "Contrato:Fabricacion y montaje de cubierta para Locales",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1761787810/cubierta3_rqmeco.jpg", 
+        "https://res.cloudinary.com/dywebznfa/image/upload/cubiertas_ddhuoq.jpg", 
         galery:[
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761787810/cubierta1_qtezps.jpg",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761787810/cubierta2_dp2kty.jpg",
-          "https://res.cloudinary.com/dywebznfa/image/upload/v1761787955/cubierta4_iy3xcx.jpg"
+          "https://res.cloudinary.com/dywebznfa/image/upload/cubiertas2_rk6c3x.jpg"
+         
           
         ],// puente peatonal
       features: [],
