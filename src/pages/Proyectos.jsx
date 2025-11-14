@@ -250,7 +250,7 @@ const Proyectos = () => {
 
     {
       id: 10,
-      title: "Plazoleta de Comidad y Plaza de Artesanos.",
+      title: "Plazoleta de Comidas y Plaza de Artesanos.",
       category: "industrial",
       status: "terminado",
       location: "Bogotá,Colombia",

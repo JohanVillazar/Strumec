@@ -91,7 +91,7 @@ const MisionVision = () => {
                   <img  
                     className="w-full h-96 object-cover rounded-2xl"
                     alt="Equipo de trabajo ESTRUMEC"
-                   src="https://images.unsplash.com/photo-1616224952327-6240f31e5bdc" />
+                   src="https://res.cloudinary.com/dywebznfa/image/upload/dorado3_gsabv8.jpg" />
                 </div>
                 <div className="absolute -top-10 -right-10 floating-animation">
                   <div className="w-24 h-24 rounded-full bg-gradient-to-r from-[#77c3cf]/30 to-[#60a3b0]/30 backdrop-blur-sm"></div>
@@ -136,7 +136,7 @@ const MisionVision = () => {
                   <span className="gradient-text">Nuestra Visión</span>
                 </h2>
                 <p className="text-lg text-[#1c1e22]/80 leading-relaxed mb-6">
-                  Para el 2030 seremos una empresa reconocida en el sector de la
+                  Para el 2035 seremos una empresa reconocida en el sector de la
                   construcción de estructuras metálicas en Colombia a través de la
                   innovación y el aseguramiento de la calidad en los procesos.
                 </p>

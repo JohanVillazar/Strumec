@@ -6,7 +6,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Teléfono",
-    details: ["+57 (3138547852", "+57 300 123 4567"],
+    details: ["+57 3138547852", "+57 3233134727"],
     
   },
   {

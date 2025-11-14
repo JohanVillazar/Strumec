@@ -9,7 +9,9 @@ const services = [
   "Montaje e instalación",
   "Corte Laser de todo Tipo",
   "Levantamientos Topograficos",
-  "Pintura Electrostatica"
+  "Pintura Electrostatica",
+  "Cortadora",
+  "Dobladora"
 ];
 
 const ContactFormSection = () => (
