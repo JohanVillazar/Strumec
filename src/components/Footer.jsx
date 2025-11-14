@@ -17,15 +17,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
-              <motion.img
-            
+            <motion.img
               src="/strumec.png"
               alt="Strumec Logo"
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ duration: 0.3 }}
               className="aspect-[2/1] w-32 object-contain rounded-md shadow-md"
             />
-       
+
             <span className="text-xl font-bold gradient-text">ESTRUMEC</span>
 
             <p className="text-[#f6fbfb]/80 mb-6 max-w-md">
@@ -66,7 +65,9 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-[#77c3cf]" />
-                <span className="text-[#f6fbfb]/80">+573138547852 / +573233134727</span>
+                <span className="text-[#f6fbfb]/80">
+                  +57 3138547852 - +57 3233134727
+                </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-[#77c3cf]" />
@@ -83,22 +84,27 @@ const Footer = () => {
 
           {/* Enlaces rápidos */}
         </div>
-
         <div className="section-divider my-8"></div>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+  <p className="text-[#f6fbfb]/60 text-sm">
+    © 2024 ESTRUMEC. Todos los derechos reservados.
+  </p>
 
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-[#f6fbfb]/60 text-sm">
-            © 2024 ESTRUMEC. Todos los derechos reservados.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <span className="text-[#f6fbfb]/60 text-sm hover:text-[#77c3cf] transition-colors cursor-pointer">
-              Política de Privacidad
-            </span>
-            <span className="text-[#f6fbfb]/60 text-sm hover:text-[#77c3cf] transition-colors cursor-pointer">
-              Términos de Servicio
-            </span>
-          </div>
-        </div>
+  <div className="flex">
+    <a
+      href="https://simulagency.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#f6fbfb]/60 text-sm hover:text-[#f6fbfb] flex items-center gap-1"
+    >
+      Hecho con amor por{" "}
+      <span className="font-semibold text-orange-400">Simul Dev</span>
+      <span className="animate-pulse text-red-500">❤️</span>
+    </a>
+  </div>
+</div>
+
+   
       </div>
     </footer>
   );
