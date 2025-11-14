@@ -17,13 +17,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
-            <motion.img
+              <motion.img
+            
               src="/strumec.png"
-              alt="Estrumec Logo"
+              alt="Strumec Logo"
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ duration: 0.3 }}
-              className="h-12 w-12 object-contain rounded-md shadow-lg border border-white/10"
+              className="aspect-[2/1] w-32 object-contain rounded-md shadow-md"
             />
+       
             <span className="text-xl font-bold gradient-text">ESTRUMEC</span>
 
             <p className="text-[#f6fbfb]/80 mb-6 max-w-md">

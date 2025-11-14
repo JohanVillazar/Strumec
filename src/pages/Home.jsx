@@ -38,7 +38,7 @@ const handleFeatureClick = () => {
   ];
 
   const stats = [
-    { number: "100+", label: "Proyectos Completados" },
+    { number: "50+", label: "Proyectos Completados" },
     { number: "13+", label: "Años de Experiencia" },
     { number: "98%", label: "Clientes Satisfechos" },
     { number: "30+", label: "Profesionales" }
@@ -186,13 +186,13 @@ const handleFeatureClick = () => {
         },
             {
           title: "Levantamientos Topograficos",
-          description: " Realizacion de levantamientos topográficos, posicionamientos,control de asentamientos y planos en 3D.",
+          description: " Realizacion de levantamientos topográficos, posicionamientos,control de asentamientos y planos en 3D. Trabajos con vuelos en Dron.",
           image: "https://res.cloudinary.com/dywebznfa/image/upload/v1761770460/topo_cuhzin.png"
         },
             {
           title: "Corte Laser de todo Tipo",
           description: "Corte laser de todo tipo de diseño, de fachadas, nombres, dibujos personalizados, avisos publicitarios y vayas para edificios..",
-          image: "https://res.cloudinary.com/dywebznfa/image/upload/v1761771092/laser_xqyoau.png"
+          image: "https://res.cloudinary.com/dywebznfa/image/upload/cortelaser_mhhg2i.jpg"
         },
                 {
           title: "Dobladora",

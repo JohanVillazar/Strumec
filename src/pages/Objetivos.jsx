@@ -31,7 +31,7 @@ const Objetivos = () => {
     {
       icon: Shield,
       title: "Eficiencia Productiva",
-      description: "Prestar con eficacia y prontitud los servicios ofrecidos por nuestra empresa, para cumplir de manera oportuna con los términos temporales y presupuestales asignados a los proyectos en ejecución.",
+      description: "Ejecutar con eficacia y prontitud los servicios ofrecidos por nuestra empresa, para cumplir de manera oportuna con los términos temporales y presupuestales asignados a los proyectos en ejecución.",
       metrics: ["Agilidad en procesos", "Reducción de Tiempos"]
     },
     {
@@ -59,8 +59,7 @@ const Objetivos = () => {
       period: "2024-2025",
       title: "Consolidación Nacional",
       goals: [
-        "Completar 150 proyectos anuales",
-        "Abrir oficina en Medellín y Cali",
+        "Completar 30 proyectos anuales",
         "Certificación ISO 9001:2015",
         "Implementar sistema ERP integral"
       ]
@@ -70,19 +69,17 @@ const Objetivos = () => {
       title: "Expansión Regional",
       goals: [
         "Iniciar operaciones en Ecuador y Perú",
-        "Desarrollar línea de productos prefabricados",
-        "Alcanzar 200 empleados directos",
-        "Certificación LEED para proyectos sostenibles"
+        "Alcanzar 50 empleados directos",
+       
       ]
     },
     {
       period: "2028-2030",
       title: "Liderazgo Internacional",
       goals: [
-        "Presencia en 5 países latinoamericanos",
-        "Centro de I+D propio",
-        "500 proyectos completados anualmente",
-        "Reconocimiento como empresa B Corp"
+        "Presencia en 2 países latinoamericanos",
+        "30 proyectos completados anualmente",
+        
       ]
     }
   ];
@@ -293,9 +290,9 @@ const Objetivos = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { metric: "85%", label: "Objetivos 2024 Completados" },
-                { metric: "150+", label: "Proyectos en Ejecución" },
-                { metric: "98%", label: "Índice de Satisfacción" },
+                { metric: "70%", label: "Objetivos 2024 Completados" },
+                { metric: "30", label: "Proyectos en Ejecución" },
+                { metric: "90%", label: "Índice de Satisfacción" },
                 { metric: "0", label: "Accidentes Laborales" }
               ].map((stat, index) => (
                 <motion.div

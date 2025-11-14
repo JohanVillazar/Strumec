@@ -41,16 +41,14 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
   <motion.img
-    src="/strumec.png"
-    alt="Strumec Logo"
-    whileHover={{ scale: 1.1, rotate: 5 }}
-    transition={{ duration: 0.3 }}
-    className="h-20 w-20 object-contain rounded-md shadow-md"
-  />
+
+  src="/strumec.png"
+  alt="Strumec Logo"
+  whileHover={{ scale: 1.1, rotate: 5 }}
+  transition={{ duration: 0.3 }}
+  className="aspect-[2/1] w-32 object-contain rounded-md shadow-md"
+/>
 </Link>
-
-
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (

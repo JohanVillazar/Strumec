@@ -4,8 +4,15 @@ import { Button } from '@/components/ui/button';
 
 const ContactCTA = () => {
   const handleCTAClick = () => {
-    const phoneNumber = "573138547852"; // <-- tu número con código de país (sin +)
+    const phoneNumber = "573138547852"; 
     const message = "¡Hola! Me gustaría obtener más información sobre sus servicios."; 
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappURL, "_blank");
+  };
+
+    const handleCOntactClick = () => {
+    const phoneNumber = "573233134727"; // <-- tu número con código de país (sin +)
+    const message = "¡Hola! Me gustaría obtener una cotización de sus servicios."; 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
   };
@@ -32,7 +39,15 @@ const ContactCTA = () => {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-[#77c3cf] px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300"
             >
-              WhatsApp
+              Contacto 1
+            </Button>
+
+                 <Button
+              onClick={handleCOntactClick}
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-[#77c3cf] px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300"
+            >
+              Contacto 2
             </Button>
           </div>
         </motion.div>

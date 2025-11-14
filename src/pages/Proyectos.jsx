@@ -70,7 +70,7 @@ const Proyectos = () => {
       title: "Puente 8 Sur Barandas.",
       category: "industrial",
       status: "en curso",
-      location: "Bogotá,Colombia",
+      location: "Soacha,Cundinamarca",
       year: "2025",
       area: "Cliente: HB Estructuras Metalicas ",
       client: "ESTRUMEC",

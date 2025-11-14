@@ -235,9 +235,13 @@ const MisionVision = () => {
       <div className="space-y-16">
         {[
           { year: "2012", title: "Fundación", description: " Su visión y liderazgo dieron origen a una empresa que nació de una idea y el valor de convertir los sueños en realidad. Gracias a su compromiso y determinación, hoy seguimos construyendo sobre un legado de pasión, innovación y propósito.." },
-          { year: "2015", title: "Expansión", description: "Apertura de nueva planta de producción y crecimiento del equipo a 25 personas." },
-          { year: "2020", title: "Innovación", description: "Implementación de tecnología BIM y procesos de fabricación automatizados." },
-          { year: "2024", title: "Liderazgo", description: "Consolidación como empresa líder con más de 500 proyectos exitosos." }
+          { year: "", title: "Inicios", description: "Comenzamos con estructuras de tamaño pequeño, cubiertas para viviendas y ornamentación." },
+          { year: "", title: "Transformación", description: "Abrimos nuestra primera oficina fisica para mejorar la atención a nuestro clientes." },
+          { year: "", title: "Innovación", description: "Iniciamos construcción y mantenimiento de puente vehiculares y peatonales." },
+          { year: "", title: "Escalamiento", description: "Realizamos estructuras de mayor tamaño para empresas publicas y privadas." },
+           { year: "", title: "Consolidación", description: "Conseguimos nuestros primeros contratos con el IDU y proyectos con grandes Empresas." },
+            { year: "", title: "Alianzas", description: "Tenemos varias empresas aliadas para mantener nuestra calidad,cumplimiento,y así ofrecer un excelente servicio a nuestros clientes." },
+
         ].map((milestone, index) => (
           <motion.div
             key={index}
