@@ -91,7 +91,7 @@ const MisionVision = () => {
                   <img  
                     className="w-full h-96 object-cover rounded-2xl"
                     alt="Equipo de trabajo ESTRUMEC"
-                   src="https://res.cloudinary.com/dywebznfa/image/upload/dorado3_gsabv8.jpg" />
+                   src="https://res.cloudinary.com/dywebznfa/image/upload/c_crop,ar_3:4/v1763239681/misiontorre_ganm9w.jpg" />
                 </div>
                 <div className="absolute -top-10 -right-10 floating-animation">
                   <div className="w-24 h-24 rounded-full bg-gradient-to-r from-[#77c3cf]/30 to-[#60a3b0]/30 backdrop-blur-sm"></div>
