@@ -26,6 +26,15 @@ const ContactFormSection = () => (
           viewport={{ once: true }}
           className="space-y-8"
         >
+          <div className="glass-effect rounded-2xl p-2">
+            <div className="h-64 bg-gradient-to-br from-[#77c3cf]/20 to-[#60a3b0]/20 rounded-xl flex items-center justify-center">
+              <div className="text-center">
+                <MapPin className="h-12 w-12 text-[#77c3cf] mx-auto mb-4" />
+                <p className="text-[#1c1e22] font-medium">Mapa Interactivo</p>
+                <p className="text-[#1c1e22]/70 text-sm">Bogotá, Colombia</p>
+              </div>
+            </div>
+          </div>
           <div className="glass-effect rounded-2xl p-8">
             <h3 className="text-2xl font-bold gradient-text mb-6">Nuestros Servicios</h3>
             <div className="space-y-3">

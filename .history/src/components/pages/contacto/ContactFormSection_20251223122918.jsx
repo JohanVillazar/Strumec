@@ -26,6 +26,7 @@ const ContactFormSection = () => (
           viewport={{ once: true }}
           className="space-y-8"
         >
+         
           <div className="glass-effect rounded-2xl p-8">
             <h3 className="text-2xl font-bold gradient-text mb-6">Nuestros Servicios</h3>
             <div className="space-y-3">
