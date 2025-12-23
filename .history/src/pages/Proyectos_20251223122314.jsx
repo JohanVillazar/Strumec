@@ -278,7 +278,7 @@ const Proyectos = () => {
       image:
         "https://res.cloudinary.com/dywebznfa/image/upload/v1766510519/viaducto_tsnud7.jpg",
       galery: [
-         "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749126/barandas1_gpq7qc.png",
+         "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749126/barandas1_gpq7qc.png"
         "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749127/barandas2_yzsbqr.png",
       ], // puente peatonal
       features: [],

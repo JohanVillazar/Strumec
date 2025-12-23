@@ -266,19 +266,20 @@ const Proyectos = () => {
 
     {
       id: 10,
-      title: "Barandas Viaducto.",
+      title: "Barandas Peatonales.",
       category: "industrial",
       status: "terminado",
-      location: "Ibagué-CajaMarca",
+      location: "Bogotá,Colombia",
       year: "2021",
       area: "Cliente: Contructec. ",
       client: "ESTRUMEC",
       description:
-        "Contrato: Barandas Viaducto Cuello Via Ibagué-CajaMarca.",
+        "Contrato: Fabricación y montaje de estructura metálica tipo barandas peatonales.",
       image:
-        "https://res.cloudinary.com/dywebznfa/image/upload/v1766510519/viaducto_tsnud7.jpg",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749126/barandas1_gpq7qc.png",
       galery: [
-         "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749126/barandas1_gpq7qc.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749172/barandas3_z15nav.png",
+        "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749173/barandas4_bojiqk.png",
         "https://res.cloudinary.com/dywebznfa/image/upload/a_-90/v1761749127/barandas2_yzsbqr.png",
       ], // puente peatonal
       features: [],
